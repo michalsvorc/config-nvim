@@ -72,6 +72,6 @@ opt.list = true
 opt.listchars = {
   trail = ".",
   nbsp = "_",
-  tab = ">-"
+  tab = ">-",
 }
 opt.conceallevel = 0
