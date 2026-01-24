@@ -13,6 +13,9 @@ opt.signcolumn = "yes"
 opt.scrolloff = 4
 opt.laststatus = 3
 
+-- Status line
+opt.statusline = "%f %h%m%r %= %y %l:%c %p%%"
+
 -- Editing behavior
 opt.expandtab = true
 opt.shiftwidth = 2
