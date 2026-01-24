@@ -49,6 +49,7 @@ opt.splitkeep = "screen"
 
 -- Completion
 opt.completeopt = { "menu", "menuone", "noselect" }
+opt.shortmess = vim.o.shortmess .. "c"
 
 -- Indentation and wrapping
 opt.wrap = true
