@@ -51,7 +51,11 @@ opt.splitkeep = "screen"
 opt.completeopt = { "menu", "menuone", "noselect" }
 opt.shortmess = vim.o.shortmess .. "c"
 
--- Indentation and wrapping
+-- Indentation
+opt.smartindent = true
+opt.autoindent = true
+
+-- Wrapping
 opt.wrap = true
 opt.breakindent = true
 opt.showbreak = "-> "
