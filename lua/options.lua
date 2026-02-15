@@ -60,10 +60,6 @@ opt.wrap = true
 opt.breakindent = true
 opt.showbreak = "-> "
 
--- Popup
-opt.pumblend = 10
-opt.pumheight = 10
-
 -- Sessions
 opt.sessionoptions = { "buffers", "curdir", "tabpages", "winsize", "help", "globals", "skiprtp", "folds" }
 
