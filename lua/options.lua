@@ -76,3 +76,6 @@ opt.listchars = {
   tab = ">-",
 }
 opt.conceallevel = 0
+
+-- Don't autoformat comments
+opt.formatoptions = 'qjl1'
