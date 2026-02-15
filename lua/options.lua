@@ -25,6 +25,7 @@ opt.softtabstop = 2
 -- Searching
 opt.ignorecase = true
 opt.smartcase = true
+opt.infercase = true
 opt.incsearch = true
 opt.hlsearch = false
 opt.inccommand = "nosplit"
