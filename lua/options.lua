@@ -75,8 +75,9 @@ opt.conceallevel = 0
 -- Don't autoformat comments
 opt.formatoptions = 'qjl1'
 
--- Reduce command line message noise
+-- Avoid hit-enter prompts and other messages
+-- I: Disable the Neovim welcome/intro screen.
 -- W: Don't display "written" or "written to file” messages after saving.
 -- c: Suppress completion messages like "match x of y"; only show essential info.
-opt.shortmess:append('Wc')
+opt.shortmess:append('IWc')
 
