@@ -81,3 +81,13 @@ opt.formatoptions = 'qjl1'
 -- c: Suppress completion messages like "match x of y"; only show essential info.
 opt.shortmess:append('IWc')
 
+-- Find
+-- Search path ignore patters
+opt.wildignore:append("**/.git/**")
+opt.wildignore:append("**/.cache/**")
+opt.wildignore:append("**/__pycache__/**")
+opt.wildignore:append("**/node_modules/**")
+opt.wildignore:append("**/dist/**")
+opt.wildignore:append("**/build/**")
+-- Search directories recursively
+opt.path:append("**")
