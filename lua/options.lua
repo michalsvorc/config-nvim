@@ -90,3 +90,9 @@ opt.wildignore:append("**/dist/**")
 opt.wildignore:append("**/build/**")
 -- Search directories recursively
 opt.path:append("**")
+
+-- Disable healthchecks for unused vim.provider languages
+vim.g.loaded_node_provider = 0
+vim.g.loaded_perl_provider = 0
+vim.g.loaded_python3_provider = 0
+vim.g.loaded_ruby_provider = 0
