@@ -12,7 +12,6 @@ opt.termguicolors = true
 opt.signcolumn = "yes"
 opt.scrolloff = 4
 opt.laststatus = 3
-
 -- Status line
 opt.statusline = "%f %h%m%r %= %y %l:%c %p%%"
 
@@ -27,7 +26,7 @@ opt.ignorecase = true
 opt.smartcase = true
 opt.infercase = true
 opt.incsearch = true
-opt.hlsearch = false
+opt.hlsearch = true
 opt.inccommand = "nosplit"
 
 -- Files and buffers
