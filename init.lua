@@ -1,4 +1,4 @@
-require("disabled")
+require("standard")
 require("options")
 require("plugins")
 require("keymaps")
