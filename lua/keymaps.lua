@@ -22,3 +22,7 @@ Keymapper.map = function(mode, lhs, rhs, opts)
 end
 
 local map = Keymapper.keymap_set
+
+-- Leader key
+vim.g.mapleader = ","
+vim.g.maplocalleader = ","

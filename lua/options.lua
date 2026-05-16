@@ -1,5 +1,5 @@
-vim.g.mapleader = ","
-vim.g.maplocalleader = ","
+-- Options
+-- :h options
 
 local opt = vim.opt
 
