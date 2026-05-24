@@ -27,7 +27,6 @@ opt.smartcase = true
 opt.infercase = true
 opt.incsearch = true
 opt.hlsearch = true
-opt.inccommand = "nosplit"
 
 -- Files and buffers
 opt.undofile = true
@@ -90,6 +89,9 @@ opt.wildignore:append("**/dist/**")
 opt.wildignore:append("**/build/**")
 -- Search directories recursively
 opt.path:append("**")
+
+-- Show the effects of :substitute commands
+opt.inccommand = "split"
 
 -- Disable healthchecks for unused vim.provider languages
 vim.g.loaded_node_provider = 0
